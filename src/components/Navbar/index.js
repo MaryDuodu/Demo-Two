@@ -12,6 +12,7 @@ import {
       return (
           <>
           <Nav>
+              <h3 className="logo__h3" >SaMa's Designs</h3>
               <Bars  />
 
               <NavMenu>
@@ -21,16 +22,16 @@ import {
                   <NavLink to="/events">
                       Events
                   </NavLink>
-                  <NavLink to="annual">
-                      Annual Report
+                  <NavLink to="contact">
+                      Contact
                   </NavLink>
-                  <NavLink to="teams">
-                      Teams
-                  </NavLink>
+                  {/* <NavLink to="teams">
+                      SignIn
+                  </NavLink> */}
                   <NavLink to="blogs">
                       Blogs
                   </NavLink>
-                  <NavLink to="sign up">
+                  <NavLink to="sign-up">
                       Sign Up
                   </NavLink>
                   {/* second Nav */}

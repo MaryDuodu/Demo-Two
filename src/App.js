@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
 import Events from './pages/events';
-import AnnualReport from './pages/annual';
-import Teams from './pages/team';
+import Contact from './pages/contact';
+import SignIn from './pages/team';
 import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
   
@@ -18,8 +18,8 @@ function App() {
         <Route path='/' exact element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='events' element={<Events />} />
-        <Route path='annual' element={<AnnualReport />} />
-        <Route path='team' element={<Teams />} />
+        <Route path='contact' element={<Contact />} />
+        <Route path='team' element={<SignIn />} />
         <Route path='blogs' element={<Blogs />} />
         <Route path='sign-up' element={<SignUp />} />
       </Routes>

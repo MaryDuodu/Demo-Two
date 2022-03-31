@@ -7,13 +7,13 @@ body {
   background-color: #ffdeca;
 }
 
-h1 {
+/* h1 {
   text-align: center;
   margin: 20px;
   color: #2c1203;
   text-transform: uppercase;
   text-decoration: underline;
-}
+} */
 
 .container {
   display: flex;
@@ -77,7 +77,7 @@ h1 {
   font-size: 18px;
   padding: 5px 0;
   margin: 5px 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   outline: none;
   border: none;
   cursor: pointer;
@@ -91,4 +91,60 @@ h1 {
 
 .actionBtn:active {
   transform: scale(0.987);
+}
+
+
+.about-heading {
+  color: rgb(24, 3, 63);
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: underline;
+}
+
+.about-subHeading {
+  color: rgb(71, 2, 40);
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-transform: capitalize;
+  text-decoration: underline;  
+}
+
+.about-image {
+  padding-left: 50px;
+  padding-bottom: 20px;
+  /* padding: 20px; */
+justify-content: space-evenly;
+    align-items: stretch;
+  display: inline-flex;
+  width: 400px;
+  height: 400px;
+
+  /* float:left; */
+}
+
+#aboutImg{
+  width: 100%;
+  /* display: inline; */
+}
+
+.about_signUp {
+  display: block;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: auto;
+}
+
+.logo__h3 {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+
 }
